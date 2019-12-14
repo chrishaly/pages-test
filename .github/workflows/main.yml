@@ -30,6 +30,7 @@ jobs:
           </body>
         </html>
         EOL
+        cp index.html public/
     -
       name: Deploy
       if: success()
